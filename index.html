@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venmur Impex - Premium Poultry Equipment</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/testimonial.js"></script>
+    <script src="components/product-card.js"></script>
+</head>
+
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+ <!-- Hero Section -->
+<section class="relative h-screen flex flex-col items-center justify-center bg-green-800 overflow-hidden">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+
+    <!-- Logo in Circle -->
+    <div class="relative z-10 mb-8 w-32 h-32 rounded-full border-4 border-White-600 flex items-center justify-center">
+        <img
+            src="https://www.pngitem.com/pimgs/m/192-1921320_best-poultry-farm-logos-hd-png-download.png"
+            alt="Venmur Impex Logo"
+            class="w-24 h-24 rounded-full object-cover"
+        />
+    </div>
+
+    <div class="relative z-10 text-center px-4">
+        <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 animate-fadeIn">Venmur Impex</h1>
+        <p class="text-xl md:text-2xl text-white mb-8 max-w-2xl mx-auto">Premium equipment for modern poultry farming solutions</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#products" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105">View Products</a>
+            <a href="#contact" class="bg-white hover:bg-gray-100 text-green-800 font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="absolute bottom-0 left-0 right-0 flex justify-center pb-8">
+        <a href="#about" class="text-white animate-bounce">
+            <i data-feather="chevron-down" class="w-10 h-10"></i>
+        </a>
+    </div>
+</section>
+
+    <!-- Image Gallery -->
+    <section class="py-16 px-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="relative h-64 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="https://i.ytimg.com/vi/A6osRIjenQg/maxresdefault.jpg" alt="Poultry Farm" class="w-full h-full object-cover">
+            </div>
+            <div class="relative h-64 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="https://i.ytimg.com/vi/K1K-rHbdmHw/maxresdefault.jpg" alt="Chicken Coop" class="w-full h-full object-cover">
+            </div>
+            <div class="relative h-64 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="https://image.made-in-china.com/2f0j00GWTuLCiaqkpn/Steel-Structure-Poultry-House-Chicken-Farming-Equipment-for-Sale.jpg" alt="Egg Production" class="w-full h-full object-cover">
+            </div>
+            <div class="relative h-64 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="https://th.bing.com/th/id/R.69d78263945a649f73aeec85ae77a041?rik=cyDZndGVkcxLyQ&riu=http%3a%2f%2fafi.com.ph%2fwp-content%2fuploads%2f2022%2f09%2fDay2_AFI-06368-1024x683.jpg&ehk=LsaG5WOU%2f7bA11L1EKn%2bkJIW0jmDRfuD2spSynOwLUc%3d&risl=&pid=ImgRaw&r=0" alt="Poultry Equipment" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-green-800 mb-12">About Venumr Impex</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-semibold text-green-700 mb-4">Our Story</h3>
+                    <p class="text-gray-600 mb-6">Founded with a passion for poultry farming, Venmur Impex has been at the forefront of providing high-quality equipment to farmers across the region. Our journey began with a simple mission: to make poultry farming more efficient and profitable.</p>
+                    
+                    <h3 class="text-2xl font-semibold text-green-700 mb-4">Why Choose Us</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-green-500 mr-2 mt-1"></i>
+                            <span>Decades of industry experience</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-green-500 mr-2 mt-1"></i>
+                            <span>Premium quality equipment</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-green-500 mr-2 mt-1"></i>
+                            <span>Competitive pricing</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-green-500 mr-2 mt-1"></i>
+                            <span>Exceptional customer service</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="relative h-96 rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://th.bing.com/th/id/R.5fcd27c5a5affca7480d9075eb1cd6be?rik=1CmYGjUoPFdUUA&riu=http%3a%2f%2fpaktanidigital.com%2fartikel%2fwp-content%2fuploads%2f2019%2f02%2fModal-dan-Keuntungan-Beternak-Ayam-Broiler.jpg&ehk=4v4msSQXuY24BkRBWkxJCA76w1NimKNZMJQPrrbJFC0%3d&risl=&pid=ImgRaw&r=0" alt="Our Office" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 px-4 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-green-800 mb-4">Our Products</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">High-quality poultry farming equipment designed to improve efficiency and productivity</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <custom-product-card 
+                    image="https://image.made-in-china.com/2f0j00cenWUifIsLzT/New-Poultry-House-Chicken-Poultry-Automatic-Feeder-System-for-Broiler-and-Breeder.jpg" 
+                    title="Automatic Chicken Feeder" 
+                    description="Durable stainless steel feeder with automatic dispensing system">
+                </custom-product-card>
+                
+                <custom-product-card 
+                    image="https://tse1.mm.bing.net/th/id/OIP.Au3CKtEytHKlEBU6fAnu9wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" 
+                    title="Poultry Drinkers" 
+                    description="Automatic water drinkers for all poultry types">
+                </custom-product-card>
+                
+                <custom-product-card 
+                    image="https://tse4.mm.bing.net/th/id/OIP.79tPM6O8VvKJgpc07YC9eQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" 
+                    title="Egg Incubators" 
+                    description="Digital temperature controlled incubators with high hatch rate">
+                </custom-product-card>
+                
+                <custom-product-card 
+                    image="https://5.imimg.com/data5/SELLER/Default/2022/3/CJ/SY/WG/2334857/female-feeder-500x500.JPG" 
+                    title="Female Feeder" 
+                    description="Energy efficient poultry brooders with temperature control">
+                </custom-product-card>
+                
+                <custom-product-card 
+                    image="https://5.imimg.com/data5/ANDROID/Default/2022/11/GB/ZC/CA/42736512/product-jpeg-500x500.jpg" 
+                    title="Jumbo Drinker" 
+                    description="Sturdy and spacious housing solutions for poultry">
+                </custom-product-card>
+                
+                <custom-product-card 
+                    image="https://tse3.mm.bing.net/th/id/OIP.Jb8PD6fynQ9WoOD1PxuAHwHaF-?rs=1&pid=ImgDetMain&o=7&rm=3" 
+                    title="Chicken Transport Box" 
+                    description="Advanced air circulation systems for poultry houses">
+                </custom-product-card>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-green-800 mb-12">What Our Customers Say</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <custom-testimonial 
+                    name="Rajesh kumar" 
+                    role="Poultry Farmer" 
+                    stars="5" 
+                    image="http://static.photos/people/200x200/1"
+                    text="Venumr Impext provided us with top-quality equipment that transformed our farm's productivity. Their service is exceptional">
+                </custom-testimonial>
+                
+                <custom-testimonial 
+                    name="Sunita Devi" 
+                    role="Egg Producer" 
+                    stars="4" 
+                    image="http://static.photos/people/200x200/2"
+                    text="The incubators we purchased have significantly improved our hatch rates. Very reliable equipment.">
+                </custom-testimonial>
+                
+                <custom-testimonial 
+                    name="Kiran Raj" 
+                    role="Farm Owner" 
+                    stars="5" 
+                    image="http://static.photos/people/200x200/3"
+                    text="Excellent products and even better customer support. Highly recommend venur impext for all poultry needs.">
+                </custom-testimonial>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 bg-green-800 text-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Contact Us</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6">Get In Touch</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <i data-feather="phone" class="mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-semibold">Phone</h4>
+                                <p>6383618101</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <i data-feather="mail" class="mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-semibold">Email</h4>
+                                <p>hybrotradersltd@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <i data-feather="clock" class="mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-semibold">Business Hours</h4>
+                                <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6">Send Us a Message</h3>
+                    <form id="enquiryForm" class="space-y-4">
+                        <div>
+                            <label for="name" class="block mb-1">Name</label>
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-2 rounded text-gray-800">
+                        </div>
+                        
+                        <div>
+                            <label for="phone" class="block mb-1">Phone</label>
+                            <input type="tel" id="phone" name="phone" required class="w-full px-4 py-2 rounded text-gray-800">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block mb-1">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded text-gray-800">
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block mb-1">Message</label>
+                            <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 rounded text-gray-800"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="bg-white text-green-800 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition-all duration-300">Send Enquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script>
+        feather.replace();
+        
+        // Form submission handler
+        document.getElementById('enquiryForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // Create mailto link
+            const subject = `New Enquiry from ${name}`;
+            const body = `Name: ${name}%0D%0APhone: ${phone}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+            
+            window.location.href = `mailto:hybrotradersltd@gmail.com?subject=${subject}&body=${body}`;
+            
+            // Reset form
+            this.reset();
+            
+            // Show success message (you could implement a proper modal here)
+            alert('Thank you for your enquiry! We will contact you soon.');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
